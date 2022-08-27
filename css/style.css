@@ -7,6 +7,41 @@ secondary gold #B78628
 medium blue #006DB8
 */
 
+.whiteText {
+  color: white;
+  text-align: left;
+}
+
+body{
+  color: white;
+  
+}
+
+
+/* challenges *//* challenges *//* challenges *//* challenges *//* challenges */
+
+
+/* join our newsletter *//* join our newsletter *//* join our newsletter */
+.blue{
+  background-color: #99Dff9;
+}
+
+/* SEA SAVE LEADERS *//* SEA SAVE LEADERS *//* SEA SAVE LEADERS *//* SEA SAVE LEADERS */
+#leaders {
+  background-color: white;
+  text-align: center;
+}
+h1{  text-align: center;
+  color: black;
+  font-family: 'Marvel', sans-serif;
+  font-size: 80pt;
+}
+h4 {text-align: center;
+  color: black;
+  font-family: 'Marvel', sans-serif;
+  font-size: 16pt;
+
+}
 
 
 .sectionHeading {
@@ -64,30 +99,45 @@ body {
 .footer{
   background: #D3F0FD;
   color:black;
-  
-  .links{
-    ul {list-style-type: none;}
-    li a{
-      color: black;
-      transition: color .2s;
-      &:hover{
-        text-decoration:none;
-        color:#4180CB;
-        }
-    }
-  }  
-  .about-company{
-    i{font-size: 25px;}
-    a{
-      color:black;
-      transition: color .2s;
-      &:hover{color:#4180CB}
-    }
-   
-   
-  
-  .location{
-    i{font-size: 18px;}
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  font-family: 'Marvel', sans-serif;;
+}
+
+.fa-facebook-square {
+  color: black;
+}
+
+.fa-facebook-square:hover{
+  color: #4267B2;
+}
+
+.fa-linkedin-square{
+  color: black;
+}
+
+.fa-linkedin-square:hover {
+  color: #0072B1;
+}
+
+.fa-square-instagram {
+  color: black;
+}
+
+.fa-square-instagram:hover {
+  color: #bc2a8d;
+}
+
+.fa-square-twitter {
+  color: black;
+}
+
+.fa-square-twitter:hover {
+  color: #00ACEE;
+}
+
+.fa-square-youtube {
+  color: black;
+}
+
+.fa-square-youtube:hover {
+  color: #C4302B;
 }
